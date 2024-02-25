@@ -558,6 +558,10 @@ class Users(models.Model):
         else:
             return False
 
+    @api.model
+    def search_count(self, domain, limit=None):
+        return 1
+
     def toggle_active(self):
         for user in self:
             if not user.active and not user.partner_id.active:
