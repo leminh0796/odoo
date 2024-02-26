@@ -26,7 +26,7 @@
 
     ],
     'assets': {
-        'web.assets_backend_prod_only': [
+        'web.assets_backend': [
             'customize_title_header/static/src/js/favicon.js',
         ],
     },

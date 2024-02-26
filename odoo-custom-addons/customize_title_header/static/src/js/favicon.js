@@ -1,11 +1,11 @@
 /** @odoo-module **/
 
 import { WebClient } from "@web/webclient/webclient";
-import { patch } from "web.utils";
+import { patch } from "@web/core/utils/patch";
 
-patch(WebClient.prototype, "customize_title_header.WebClient", {
+patch(WebClient.prototype, {
     setup() {
-        this._super();
+        super.setup();
         this.title.setParts({ zopenerp: "G6 Pharma" });
     },
-});
+})
