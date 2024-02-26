@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* base
-# 
+#
 # Translators:
 # Martin Trigaux, 2023
 # Trần Hà <tranthuha13590@gmail.com>, 2023
@@ -9,7 +9,7 @@
 # Duy BQ <duybq86@gmail.com>, 2024
 # Nancy Momoland <thanh.np2502@gmail.com>, 2024
 # Thi Huong Nguyen, 2024
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0+e\n"
@@ -1855,7 +1855,7 @@ msgstr ""
 "\n"
 "Định danh Chung:\n"
 "\n"
-"* VAT: Số định danh thuế tài chính hoặc số VAT, theo mặc định sẽ được chọn làm loại định danh, vì vậy người dùng chỉ cần thêm số VAT có liên quan.\n"
+"* VAT: Số định danh thuế tài chính hoặc Mã số thuế, theo mặc định sẽ được chọn làm loại định danh, vì vậy người dùng chỉ cần thêm Mã số thuế có liên quan.\n"
 "* Hộ chiếu\n"
 "* Chứng minh Nhân dân Nước ngoài (Giấy tờ Ngoại Quốc)\n"
 "\n"
@@ -1869,7 +1869,7 @@ msgstr ""
 "\n"
 "Tất cả loại định danh đã xác định có thể được xem lại và kích hoạt/hủy kích hoạt trong menu \"Liên hệ/Cấu hình/Loại Định danh\".\n"
 "\n"
-"Phân hệ này tương thích với phân hệ base_vat để có thể xác thực số VAT cho từng quốc gia có hoặc không có khả năng quản lý nhiều loại định danh.\n"
+"Phân hệ này tương thích với phân hệ base_vat để có thể xác thực Mã số thuế cho từng quốc gia có hoặc không có khả năng quản lý nhiều loại định danh.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_hr_contract
@@ -10727,15 +10727,15 @@ msgid ""
 "only the country code will be validated.\n"
 msgstr ""
 "\n"
-"Xác thực VAT cho số VAT của Đối tác.\n"
+"Xác thực VAT cho Mã số thuế của Đối tác.\n"
 "=================================================\n"
 "\n"
 "Sau khi cài đặt phân hệ này, các giá trị đã nhập trong trường VAT của Đối tác sẽ \n"
 "được xác thực cho tất cả quốc gia được hỗ trợ. Quốc gia được suy ra từ \n"
-"mã quốc gia gồm 2 chữ cái đứng trước số VAT, ví dụ: ``BE0477472701`` \n"
+"mã quốc gia gồm 2 chữ cái đứng trước Mã số thuế, ví dụ: ``BE0477472701`` \n"
 "sẽ được xác thực bằng các quy tắc của Bỉ.\n"
 "\n"
-"Có hai cấp độ xác thực số VAT khác nhau:\n"
+"Có hai cấp độ xác thực Mã số thuế khác nhau:\n"
 "--------------------------------------------------------\n"
 "    * Theo mặc định, kiểm tra ngoại tuyến đơn giản được thực hiện bằng cách sử dụng các quy tắc\n"
 "      xác thực đã thiết lập của quốc gia, thường là một số kiểm tra đơn giản. Việc này diễn ra \n"
@@ -10743,7 +10743,7 @@ msgstr ""
 "      hoặc không còn giá trị.\n"
 "\n"
 "    * Khi tùy chọn \"Kiểm tra VIES VAT\" được bật (trong cấu hình Công ty của\n"
-"      người dùng), số VAT sẽ được gửi tới cơ sở dữ liệu VIES EU trực tuyến,\n"
+"      người dùng), Mã số thuế sẽ được gửi tới cơ sở dữ liệu VIES EU trực tuyến,\n"
 "      cơ sở dữ liệu này sẽ thực sự xác minh rằng số này hợp lệ và hiện \n"
 "      được cấp cho một công ty EU. Quá trình này chậm hơn một chút so với kiểm tra \n"
 "      ngoại tuyến đơn giản, cần có kết nối mạng và đôi khi có thể không \n"

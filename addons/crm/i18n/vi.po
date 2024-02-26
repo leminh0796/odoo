@@ -1,11 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* crm
-# 
+#
 # Translators:
 # Wil Odoo, 2023
 # Thi Huong Nguyen, 2024
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
@@ -1298,7 +1298,7 @@ msgid ""
 "fill in all its data? Odoo autocompletes everything for you: logo, address, "
 "company size, business information, social media accounts, etc."
 msgstr ""
-"Bạn có biết rằng bạn có thể tìm kiếm một công ty theo tên hoặc số VAT để "
+"Bạn có biết rằng bạn có thể tìm kiếm một công ty theo tên hoặc Mã số thuế để "
 "điền nhanh tất cả dữ liệu của công ty đó không? Odoo tự động hoàn thành mọi "
 "thứ cho bạn: logo, địa chỉ, quy mô công ty, thông tin doanh nghiệp, tài "
 "khoản mạng xã hội,..."
