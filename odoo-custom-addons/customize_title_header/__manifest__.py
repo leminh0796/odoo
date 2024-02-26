@@ -15,6 +15,10 @@
     'author': 'Innoway',
     'website': 'https://innoway-solutions.com',
     'license': 'LGPL-3',
+    'category': 'Uncategorized',
+    'version': '0.1',
+    'installable': True,
+    'application': True,
     'depends': [
         'web'
     ],
